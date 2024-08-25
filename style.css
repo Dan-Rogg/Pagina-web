@@ -1,0 +1,72 @@
+/* Selector universal, es el asterisco y llave*/
+
+* {
+    font-family: sans-serif;
+}
+/* El selector de etiqueta:
+Ocupa el nombre de la etiqueta y modifica todas las ocurrencias
+(todos los nombres iguales) */
+
+body {
+    background-color: antiquewhite;
+    padding: 0.6em 2em 0.10em 2em;
+}
+
+p{
+    color: rgb(80, 48, 7);
+
+}
+
+footer {
+    text-align: end;
+}
+
+/* Selector de clase */
+/* Todos los elementos que tengan la misma clase van a tener el mismo formato */
+.animal {
+    padding: 10px;
+border: 2px solid #000;
+width: 200px;
+height: 150px;
+}
+
+/* Solo funciona para textos de párrafos o de cabecera, las imagenes tienen que ir dentro de un párrafo */
+.texto-centrado {
+    text-align: center;
+}
+
+/* Selector de id */
+/* Nos permite seleccionar un elemento único dentro del sitio,
+éste solo debe aplicar a UNO de los elementos del sitio. */
+#logo {
+    width: 150px;
+}
+
+
+
+#contacto {
+    background-image: url('https://i.pinimg.com/originals/da/63/74/da6374dd55cdf0085cdc66278a303564.gif');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 20%,20%;
+}
+
+#navegacion {
+
+    display: inline;
+
+}
+
+/* Selector combinado 
+
+Aquí podemos combinar más de una opción 
+
+para ir filtrando mis etiquetas.
+
+*/
+
+#navegacion li{
+
+    display: inline;
+
+}
